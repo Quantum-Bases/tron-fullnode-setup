@@ -1,6 +1,3 @@
-Certainly! Here's a README.md script for the provided documentation:
-
-```markdown
 # Tron Full Node Setup Guide
 
 This guide will walk you through the process of setting up a Tron Full Node on a machine with the recommended configuration.
