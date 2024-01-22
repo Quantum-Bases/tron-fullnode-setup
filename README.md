@@ -20,7 +20,7 @@ This guide will walk you through the process of setting up a Tron Full Node on a
 
 1. Download the x64 Compressed Archive from [Oracle JDK Downloads](https://www.oracle.com/java/technologies/downloads/).
 
-2. Create a directory for extraction:
+2. Create a directory for extraction:  For additional information, refer to the [Install Oracle JDK 1.8](https://linux.how2shout.com/how-to-install-oracle-java-8-64-bit-ubuntu-22-04-20-04-lts/).
    ```bash
    sudo mkdir java
    ```
@@ -96,7 +96,4 @@ Replace `/full-path-to-output-directory` with the actual path to your output dir
 
 This script assumes that the node reads the output-directory by default. If you need to specify another directory, add the `-d directory` parameter when starting the node.
 
-For additional information, refer to the [Tron Documentation](https://linux.how2shout.com/how-to-install-oracle-java-8-64-bit-ubuntu-22-04-20-04-lts/) and [Tron GitHub Repository](https://github.com/tronprotocol/java-tron).
-```
-
-Please note that you may need to adapt paths and parameters based on your specific setup.
+For additional information, refer to the [Install Oracle JDK 1.8](https://linux.how2shout.com/how-to-install-oracle-java-8-64-bit-ubuntu-22-04-20-04-lts/).
