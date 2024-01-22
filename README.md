@@ -76,6 +76,10 @@ nohup wget http://52.77.31.45/backup20240122/FullNode_output-directory.tgz &
 
 Decompress the backup database file to the output-directory. It will take about 12 hours.
 
+```bash
+tar -xf FullNode_output-directory.tgz
+```
+
 ## 5. Startup the Node
 
 Start the Full Node with the following command:
@@ -95,5 +99,3 @@ nohup java -Xms9G -Xmx9G -XX:ReservedCodeCacheSize=256m \
 Replace `/full-path-to-output-directory` with the actual path to your output directory.
 
 This script assumes that the node reads the output-directory by default. If you need to specify another directory, add the `-d directory` parameter when starting the node.
-
-For additional information, refer to the [Install Oracle JDK 1.8](https://linux.how2shout.com/how-to-install-oracle-java-8-64-bit-ubuntu-22-04-20-04-lts/).
