@@ -77,7 +77,7 @@ nohup wget http://52.77.31.45/backup20240122/FullNode_output-directory.tgz &
 Decompress the backup database file to the output-directory. It will take about 12 hours.
 
 ```bash
-tar -xf FullNode_output-directory.tgz
+nohup tar -xf FullNode_output-directory.tgz &
 ```
 
 ## 5. Startup the Node
